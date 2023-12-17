@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Caches
+.cache/
+
+# Environment
+.env
+venv/
+.env/
+
+# IDE specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Compiled python modules
+*.pyc
+*.pyo
+
+# Package distribution
+*.egg-info/
+dist/
+build/
+eggs/
+
+# Django related
+*.log
+db.sqlite3
+media/
+
+# Ignore local settings file
+local_settings.py
+
+# Ignore development and temporary files
+*.bak
+*.swp
+*~
+
+# Ignore pipenv virtual environment
+Pipfile
+Pipfile.lock
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python coverage output
+htmlcov/
+
+# Ignore pytest cache
+__pycache__/
+.cache/
+pytest_cache/
+
+# Ignore docker-compose files
+docker-compose.yml
+docker-compose.override.yml
