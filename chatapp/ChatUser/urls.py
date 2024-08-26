@@ -6,7 +6,8 @@ from .views import (
     user_login,
     OTPRequestView,
     OTPVerifyView,
-    PasswordResetView
+    PasswordResetView,
+    blacklist_token
 )
 
 urlpatterns = [
@@ -16,4 +17,5 @@ urlpatterns = [
     path('otp/request/', OTPRequestView.as_view(), name='otp-request'),
     path('otp/verify/', OTPVerifyView.as_view(), name='otp-verify'),
     path('password/reset/', PasswordResetView.as_view(), name='password-reset'),
+    path('api/token/blacklist/', blacklist_token, name='token_blacklist'),
 ]
